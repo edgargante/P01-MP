@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Catsup extends IngredienteDecorator{
 
   public Catsup(Sandwich s){
