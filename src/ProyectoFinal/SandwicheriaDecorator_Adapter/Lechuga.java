@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Lechuga extends IngredienteDecorator{
 
   public Lechuga(Sandwich s){
