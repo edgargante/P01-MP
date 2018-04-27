@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class PanIntegral extends IngredienteDecorator{
 
   public PanIntegral(Sandwich s){
