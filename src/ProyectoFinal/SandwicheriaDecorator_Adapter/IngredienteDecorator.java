@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class IngredienteDecorator implements Sandwich{
 
   protected Sandwich sandwich;
