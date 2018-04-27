@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Mayonesa extends IngredienteDecorator{
 
   public Mayonesa(Sandwich s){
