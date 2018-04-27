@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Jitomate extends IngredienteDecorator{
 
   public Jitomate (Sandwich s){
