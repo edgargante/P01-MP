@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class PanBlanco extends IngredienteDecorator{
 
   public PanBlanco(Sandwich s){
