@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Salchicha extends IngredienteDecorator{
 
   public Salchicha(Sandwich s){
