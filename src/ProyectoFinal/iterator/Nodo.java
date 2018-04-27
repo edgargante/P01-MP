@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Nodo { 
 	Ingrediente i; 
 	Nodo sig, ant; 

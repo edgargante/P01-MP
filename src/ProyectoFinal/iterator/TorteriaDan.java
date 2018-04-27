@@ -1,5 +1,6 @@
 import java.util.Iterator;
 import java.util.Hashtable;
+package src.ProyectoFinal;
 public class TorteriaDan implements Menu{
 	Hashtable menuItems = new Hashtable();
 	

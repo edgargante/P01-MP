@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class Ingrediente{
 	String nombre;
 	int cantidad;
