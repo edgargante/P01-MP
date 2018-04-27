@@ -1,3 +1,4 @@
+package src.ProyectoFinal;
 public class PanSimple implements IngredienteDecorator{
 
   private double precio = 0;
