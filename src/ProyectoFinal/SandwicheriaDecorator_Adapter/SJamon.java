@@ -1,7 +1,7 @@
 package SandwicheriaDecorator_Adapter;
-public class PanBlanco extends IngredienteDecorator{
+public class SJamon extends IngredienteDecorator{
 
-  public PanBlanco(Sandwich s){
+  public SJamon(Sandwich s){
     super(s);
   }
 
@@ -10,6 +10,6 @@ public class PanBlanco extends IngredienteDecorator{
   }
 
   public String getDescription(){
-    return sandwich.getDescription() + ", Pan blanco";
+    return sandwich.getDescription() + ", Jamon";
   }
 }

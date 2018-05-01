@@ -1,16 +1,17 @@
+package iterator;
 import java.util.Iterator;
-package src.ProyectoFinal;
+
 public class TorteriaCal implements Menu{
 	private Ingrediente [] items;
 	int posicion=0;
-	
+
 	public TorteriaCal(){
 		items = new Ingrediente [13];
 		for(int i=0;i<items.length;i++){
 			items[i]=new Ingrediente(i);
 		}
 	}
-	
+
 	public Iterator iterator(){
 		return new IteradorTorta(items);
 	}
@@ -21,16 +22,16 @@ public class TorteriaCal implements Menu{
 			System.out.println(menu);
 		}
 	}
-	
+
 	private class IteradorTorta implements Iterator{
 		private Ingrediente[] items;
-		private int indice;		
-		
+		private int indice;
+
 		public IteradorTorta(Ingrediente []a){
 			items = a;
 			indice=0;
 		}
-		
+
 		public Object next(){
 			Object temp = items[indice];
 			indice += 1;

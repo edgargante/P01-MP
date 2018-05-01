@@ -1,15 +1,15 @@
-package src.ProyectoFinal;
+package SandwicheriaDecorator_Adapter;
 public class PanIntegral extends IngredienteDecorator{
 
   public PanIntegral(Sandwich s){
     super(s);
   }
 
-  public double getPrecio(){
-    return sandwich.getPrecio() + 6;
+  public double getCost(){
+    return sandwich.getCost() + 6;
   }
 
-  public String getDescripcion(){
-    return sandwich.getDescripcion() + ", Pan integral";
+  public String getDescription(){
+    return sandwich.getDescription() + ", Pan integral";
   }
 }

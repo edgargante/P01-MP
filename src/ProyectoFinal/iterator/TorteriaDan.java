@@ -1,12 +1,13 @@
+package iterator;
 import java.util.Iterator;
 import java.util.Hashtable;
-package src.ProyectoFinal;
+
 public class TorteriaDan implements Menu{
 	Hashtable menuItems = new Hashtable();
-	
+
 	public TorteriaDan(){
 		addItem();
-	}	
+	}
 	public void addItem(){
 		for(int i=0;i<13;i++){
 		Ingrediente menuItem = new Ingrediente(i);
@@ -16,7 +17,7 @@ public class TorteriaDan implements Menu{
 	public Hashtable getItems(){
 		return menuItems;
 	}
-	
+
 	public Iterator iterator(){
 		return menuItems.values().iterator();
 	}

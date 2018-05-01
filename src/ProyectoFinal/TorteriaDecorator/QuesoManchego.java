@@ -1,4 +1,4 @@
-package src.ProyectoFinal;
+package TorteriaDecorator;
 public class QuesoManchego extends IngredienteDecoradorTorta {
 
   Torta torta;

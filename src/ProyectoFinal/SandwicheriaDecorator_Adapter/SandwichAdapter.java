@@ -1,8 +1,8 @@
-package src.ProyectoFinal;
+package SandwicheriaDecorator_Adapter;
 
-public class SandwichAdapter implements Adapter{
+public class SandwichAdapter extends Torta{
 
-  private Sanwdich s = new Sandwich();
+  private Sandwich s = new Sandwich();
 
   public SandwichAdapter(){
   }

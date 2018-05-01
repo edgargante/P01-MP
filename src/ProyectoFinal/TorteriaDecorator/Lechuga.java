@@ -1,4 +1,4 @@
-package src.ProyectoFinal;
+package TorteriaDecorator;
 public class Lechuga extends IngredienteDecoradorTorta {
 
   Torta torta;

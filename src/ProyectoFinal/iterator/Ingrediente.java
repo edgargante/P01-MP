@@ -1,8 +1,8 @@
-package src.ProyectoFinal;
+package iterator;
 public class Ingrediente{
 	String nombre;
 	int cantidad;
-	
+
 	public Ingrediente(int n){
 		switch(n){
 			case 0:  nombre = "bolillo blanco";

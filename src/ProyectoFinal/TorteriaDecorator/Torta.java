@@ -1,4 +1,4 @@
-package src.ProyectoFinal;
+package TorteriaDecorator;
 public abstract class Torta {
 
   String descripcion = "Torta no identificada.";

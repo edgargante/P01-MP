@@ -1,8 +1,8 @@
-package src.ProyectoFinal;
+package TorteriaDecorator;
 public class BolilloBlanco extends IngredienteDecoradorTorta {
 
   Torta torta;
-  
+
   public BolilloBlanco(Torta torta) {
     this.torta = torta;
   }

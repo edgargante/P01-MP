@@ -1,4 +1,4 @@
-package src.ProyectoFinal;
+package SandwicheriaDecorator_Adapter;
 public class IngredienteDecorator implements Sandwich{
 
   protected Sandwich sandwich;
@@ -7,12 +7,12 @@ public class IngredienteDecorator implements Sandwich{
     sandwich = s;
   }
 
-  public double getPrecio(){
-    return sandwich.getPrecio();
+  public double getCost(){
+    return sandwich.getCost();
   }
 
-  public String getDescripcion(){
-    return sandwich.getDescripcion();
+  public String getDescription(){
+    return sandwich.getDescription();
   }
 
 }

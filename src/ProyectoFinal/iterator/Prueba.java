@@ -1,5 +1,6 @@
+package iterator;
 import java.util.ArrayList;
-package src.ProyectoFinal;
+
 public class Prueba{
 	public static void main(String []args){
 		ArrayList menus = new ArrayList();

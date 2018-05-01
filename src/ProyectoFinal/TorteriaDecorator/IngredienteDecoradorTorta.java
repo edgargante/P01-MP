@@ -1,5 +1,5 @@
 
-package src.ProyectoFinal;
+package TorteriaDecorator;
 public abstract class IngredienteDecoradorTorta extends Torta {
 
   public abstract String getDescripcion();

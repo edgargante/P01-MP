@@ -1,7 +1,7 @@
-package src.ProyectoFinal;
+package SandwicheriaDecorator_Adapter;
 public interface Sandwich{
 
-  public double getPrecio();
+  public double getCost();
 
-  public String getDescripcion();
+  public String getDescription();
 }

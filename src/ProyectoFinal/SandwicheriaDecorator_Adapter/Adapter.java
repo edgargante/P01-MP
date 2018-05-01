@@ -1,4 +1,4 @@
-package src.ProyectoFinal
+package SandwicheriaDecorator_Adapter;
 public interface Adapter{
 
 public String getDescripcion();

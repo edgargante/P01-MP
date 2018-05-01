@@ -1,11 +1,11 @@
-package src.ProyectoFinal;
+package SandwicheriaDecorator_Adapter;
 public class SandwichBase implements Sandwich{
 
-  public double getPrecio(){
+  public double getCost(){
     return 0;
   }
 
-  public String getDescripcion(){
+  public String getDescription(){
     return "";
   }
 }

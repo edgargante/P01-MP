@@ -1,5 +1,6 @@
+package iterator;
 import java.util.Iterator;
-package src.ProyectoFinal;
+
 public class Sandwicheriacha implements Menu{
 	Lista lis = new Lista();
 	public Sandwicheriacha(){
@@ -20,12 +21,12 @@ public class Sandwicheriacha implements Menu{
 	private class IteradorSandwich implements Iterator{
 		private Lista it;
 		private Nodo n;
-		
+
 		public IteradorSandwich(Lista l){
 			it=l;
 			n=it.cab;
 		}
-		
+
 		public Object next(){
 			Object temp = n.i;
 			n=n.sig;
@@ -35,5 +36,5 @@ public class Sandwicheriacha implements Menu{
 			return !(n.sig == null);
 		}
 	}
-	
+
 }
