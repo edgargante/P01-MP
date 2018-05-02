@@ -1,0 +1,20 @@
+/**
+*@author Edgar Gante
+*@version 1
+*/
+package TorteriaDecorator;
+public class TortaSimple extends Torta {
+
+    public TortaSimple() {
+         descripcion = "Torta Simple";
+    }
+
+    public double costo() {
+        return 50.00;
+    }
+
+    public String toString(){
+      return getDescripcion();
+    }
+
+}
