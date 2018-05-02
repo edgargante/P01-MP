@@ -1,12 +1,15 @@
 package SandwicheriaDecorator_Adapter;
-public class SandwichBase implements Sandwich{
+public class SandwichPanBlanco implements Sandwich{
+
+  public SandwichPanBlanco(){
+  }
 
   public double getCost(){
-    return 0;
+    return 5;
   }
 
   public String getDescription(){
-    return "";
+    return "Pan blanco ";
   }
 
   public String toString(){

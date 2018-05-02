@@ -9,4 +9,7 @@ public abstract class Torta {
 
   public abstract double costo();
 
+  public String toString(){
+    return getDescripcion() + " Precio total :" + costo();
+  }
 }

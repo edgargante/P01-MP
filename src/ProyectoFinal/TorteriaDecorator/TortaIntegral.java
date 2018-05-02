@@ -9,4 +9,7 @@ public class TortaIntegral extends Torta {
     return 80.00;
   }
 
+  public String toString(){
+    return getDescripcion();
+  }
 }

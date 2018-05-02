@@ -1,12 +1,15 @@
 package SandwicheriaDecorator_Adapter;
-public class SandwichBase implements Sandwich{
+public class SandwichIntegral implements Sandwich{
+
+  public SandwichIntegral(){
+  }
 
   public double getCost(){
-    return 0;
+    return 6;
   }
 
   public String getDescription(){
-    return "";
+    return "Pan integral ";
   }
 
   public String toString(){

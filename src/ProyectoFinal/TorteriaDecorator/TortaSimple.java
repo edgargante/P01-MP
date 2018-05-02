@@ -9,4 +9,8 @@ public class TortaSimple extends Torta {
         return 50.00;
     }
 
+    public String toString(){
+      return getDescripcion();
+    }
+
 }
